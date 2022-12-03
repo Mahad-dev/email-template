@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>*|SUBJECT|*</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap");
+
+    body {
+      font-family: "roboto";
+    }
+
+    .card_wrapper {
+      min-width: 80% !important;
+      max-width: 80% !important;
+    }
+
+    @media only screen and (max-width: 1000px) {
+      .sqs-col-social {
+        width: 75%;
+      }
+
+      .sqs-col-interests {
+        width: 25%;
+      }
+
+      .sqs-col-none {
+        width: 0%;
+      }
+    }
+
+    @media only screen and (max-width: 900px) {
+      .download-button {
+        width: 40%;
+        padding-top: 1.5em;
+      }
+
+      .modal-content {
+        width: 40% !important;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .interests {
+        padding-left: 1em;
+      }
+
+      .sqs-col-social {
+        width: 100%;
+      }
+
+      .sqs-col-interests {
+        width: 100%;
+      }
+
+      .sqs-layout [class*="sqs-col"] {
+        float: none !important;
+      }
+
+      .modal-content {
+        width: 50% !important;
+      }
+    }
+
+    @media only screen and (max-width: 700px) {
+      .download-button {
+        width: 40%;
+        padding-top: 1.5em;
+      }
+
+      .modal-content {
+        width: 60% !important;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .download-button {
+        width: 40%;
+        padding-top: 1.5em;
+      }
+
+      .modal-content {
+        width: 75% !important;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .w90p {
+        width: 90% !important;
+      }
+
+      .w95p {
+        width: 95% !important;
+      }
+
+      .w100p {
+        width: 100% !important;
+      }
+
+      .imgFull {
+        width: 100% !important;
+        height: auto !important;
+      }
+
+      .desktop {
+        width: 0 !important;
+        display: none !important;
+      }
+
+      .mobile {
+        display: block !important;
+      }
+
+      h1 {
+        font-size: 50px !important;
+        line-height: 60px !important;
+      }
+
+      .cTxt {
+        text-align: center !important;
+      }
+
+      .tPad-0 {
+        padding-top: 0 !important;
+      }
+
+      .rPad-0 {
+        padding-right: 0 !important;
+      }
+
+      .lPad-0 {
+        padding-left: 0 !important;
+      }
+
+      .bPad-30 {
+        padding-bottom: 30px !important;
+      }
+
+      .star a {
+        font-size: 40px !important;
+      }
+    }
+
+    @media only screen and (max-width: 1200px) {
+      .card_wrapper {
+        min-width: 80% !important;
+        max-width: 80% !important;
+      }
+    }
+
+    @media only screen and (max-width: 960px) {
+      .card_wrapper {
+        min-width: 80% !important;
+        max-width: 80% !important;
+      }
+    }
+
+    @media only screen and (max-width: 865px) {
+      .card_wrapper {
+        min-width: 80% !important;
+        max-width: 80% !important;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .card_wrapper {
+        min-width: 80% !important;
+        max-width: 80% !important;
+      }
+    }
+
+    @media only screen and (max-width: 567px) {
+      .card_wrapper {
+        min-width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      .post-title {
+        font-size: 10px;
+      }
+
+      .post-text {
+        font-size: 10px;
+      }
+
+      .post_month {
+        font-size: 10px;
+        margin-bottom: 12px;
+      }
+
+      .date {
+        font-size: 12px;
+      }
+
+      .user-bubble-highlighted {
+        font-size: 0.75rem;
+      }
+
+      .user-horoscope {
+        font-size: 0.75rem;
+      }
+
+      .user-enneagram {
+        font-size: 9px;
+      }
+
+      .date {
+        font-size: 9px;
+      }
+
+      .intro {
+        padding: 10px;
+      }
+
+      .num_comment {
+        font-size: 10px;
+      }
+
+      .num_like {
+        font-size: 10px;
+        padding-bottom: 0.4rem !important;
+      }
+    }
+
+    .icon-bookmark {
+      width: 22px;
+      height: 22px;
+    }
+
+    .icon-share {
+      width: 18px !important;
+      height: 18px !important;
+    }
+
+    .num_like,
+    .date {
+      color: #9e9e9e !important;
+      padding-bottom: 0.25rem !important;
+    }
+  </style>
+</head>
+
+<body id="body" class="body body-fix">
+  <div role="article" aria-roledescription="email" aria-label="Email from Wonderblum" xml:lang="en" lang="en">
+    <!-- <span class="mcnPreviewText"
+            style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span> -->
+
+    <!--start of email-->
+    <table class="darkmode" cellpadding="0" cellspacing="0" border="0" role="presentation"
+      style="width: 100%; background: #ffffff">
+      <!--main content area-->
+      <tr>
+        <td class="tPad-0" align="center" valign="top" style="padding-top: 20px">
+          <table class="w100p main-container darkmode2" cellpadding="0" cellspacing="0" border="0" role="presentation"
+            style="width: 600px; background-color: #ffffff">
+            <tr>
+              <td class="pad_50_0" align="center" valign="top">
+                <span style="font-size: 16px"><span style="
+                        font-family: Roboto, helvetica neue, helvetica, arial,
+                          sans-serif;
+                      " mc:edit="title_center" mc:label="title_center">Boo
+              </td>
+            </tr>
+
+            <tr mc:repeatable="main_headline">
+              <td class="pad_0_0_50" align="center" valign="top">
+                <!--H1 headline-->
+                <span style="
+                      font-family: Roboto, helvetica neue, helvetica, arial,
+                        sans-serif;
+                    "><span style="font-size: 16px" mc:edit="sub_title" mc:label="sub_title"><strong>Your Daily
+                      Digest</strong>
+              </td>
+            </tr>
+
+            <table class="card_wrapper" style="min-width: 600px">
+              <tbody>
+                <tr>
+                  <td>
+                    <a style="
+                          cursor: pointer;
+                          text-decoration: none;
+                          color: black;
+                        " href="*|POST0_URL|*">
+                      <div class="shadow-container" style="
+                            background-color: rgba(255, 255, 255, 1);
+                            margin: 0em 1em 1.5em 1em;
+                            padding: 1em 1em 1em 1em;
+                            border-top-left-radius: 25px;
+                            border-top-right-radius: 25px;
+                            border-bottom-left-radius: 25px;
+                            border-bottom-right-radius: 25px;
+                            margin-top: 20px;
+                            border: 1px solid rgba(128, 128, 128, 0.2);
+                            position: relative;
+                          ">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock"
+                          style="margin-bottom: 15px">
+                          <tbody class="mcnCaptionBlockOuter">
+                            <tr>
+                              <td class="mcnCaptionBlockInner" valign="top">
+                                <table align="left" text-align="left" width="50%">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <p class="interest-title" style="
+                                              font-size: 0.875rem;
+                                              padding: 0;
+                                              margin: 0;
+                                              color: black;
+                                              text-decoration: none;
+                                            ">
+                                          *|POST0_TAG|*
+                                        </p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+
+                                <table align="right" width="50%" style="text-align: right">
+                                  <tbody>
+                                    <tr>
+                                      <td class="date" style="
+                                            color: grey;
+                                            margin: 0;
+                                            font-size: 12px;
+                                            vertical-align: middle;
+                                            position: absolute;
+                                            right: 35px;
+                                            text-align: right;
+                                            padding: 0.25em 0 0 0;
+                                          " valign="middle" align="right">
+                                        *|POST0_DATE|*
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <h4 class="post-title" style="
+                              vertical-align: middle;
+                              font-size: 1.25rem;
+                              font-weight: bold;
+                              font-family: Roboto;
+                              padding: 0;
+                              margin: 0;
+                              color: black;
+                              text-decoration: none;
+                            ">
+                          *|POST0_TITLE|*
+                        </h4>
+                        <p class="post-text" style="
+                              font-size: 0.875rem;
+                              margin: 0;
+                              color: black;
+                              text-decoration: none;
+                              padding: 0.5em 0 0.5em 0;
+                              margin-top: 5px;
+                              margin-bottom: 10px;
+                            ">
+                          *|IF:POST0_DESCRIPTION|* *|POST0_DESCRIPTION|*
+                          *|END:IF|*
+                        </p>
+
+                        <!-- <div class="post_img">
+                                                <img src="*|IF:POST0_IMAGE|* *|POST0_IMAGE|* *|END:IF|*">
+
+                                            </div> -->
+
+                        <table width="100%">
+                          <tbody>
+                            <tr align="top">
+                              <td>
+                                <table>
+                                  <tbody>
+                                    <tr>
+                                      <td align="top">
+                                        <img class="img_icon" style="
+                                                    width: 22px;
+                                                    height: 22px;
+                                                    padding-top: 6px;
+                                                    padding: 0;
+                                                  "
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/like_white.png?alt=media&token=e34c2804-36eb-4559-99a0-3e4b8f2200f1"
+                                          alt="" width="22" height="22" />
+                                      </td>
+                                      <td align="top">
+                                        <p class="num_like" style="
+                                                    font-size: 0.875rem;
+                                                    padding-left: 0.2em;
+                                                    margin: 0;
+                                                    margin-right: 7px;
+                                                    vertical-align: middle;
+                                                    white-space: nowrap;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                  ">
+                                          *|POST0_NUM_LIKES|*
+                                        </p>
+                                      </td>
+
+                                      <td align="top">
+                                        <img class="img_ghost"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/boo_logo.png?alt=media&token=71c55058-5cf3-46b2-b68b-5fe113e90f9b"
+                                          style="width: 22px; height: 22px" width="22" height="22" />
+                                      </td>
+
+                                      <td align="top">
+                                        <p class="num_like" style="
+                                                    font-size: 0.875rem;
+                                                    padding-left: 0.2em;
+                                                    margin: 0;
+                                                    margin-right: 7px;
+                                                    vertical-align: middle;
+                                                    white-space: nowrap;
+                                                    overflow: hidden;
+                                                    text-overflow: ellipsis;
+                                                  ">
+                                          *|POST0_NUM_COMMENTS|*
+                                        </p>
+                                      </td>
+                                      <td align="top">
+                                        <img class="img_icon icon-share"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/send.png?alt=media&token=8f896c70-d49a-4b9b-896b-e7257efc944b"
+                                          alt="" style="
+                                                    width: 22px;
+                                                    height: 22px;
+                                                    padding: 0;
+                                                  " width="22" height="22" />
+                                      </td>
+
+                                      <td align="top">
+                                        <img class="img_icon"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/share_white.png?alt=media&token=b4ed99c8-53fe-45a6-949e-e796515e42c1"
+                                          alt="" style="
+                                                    width: 22px;
+                                                    height: 22px;
+                                                    padding: 0;
+                                                  " width="22" height="22" />
+                                      </td>
+
+                                      <td align="top">
+                                        <img class="img_icon"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/star_white.png?alt=media&token=ebe6b2e7-213b-4905-9137-2f760689c612"
+                                          alt="" style="
+                                                    width: 22px;
+                                                    height: 22px;
+                                                    padding: 0;
+                                                  " width="22" height="22" />
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+
+                              <td width="20%" valign="middle" align="right">
+                                <table align="right">
+                                  <tbody>
+                                    <tr>
+                                      <td align="right">
+                                        <img class="img_icon icon-bookmark"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/bookmark%20(1).png?alt=media&token=bad5921b-efba-4a0f-8195-80c4c961ceaa"
+                                          alt="" width="22" height="22" />
+
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- card 1 -->
+
+            <table class="card_wrapper" style="min-width: 600px">
+              <tbody>
+                <tr>
+                  <td>
+                    <a style="
+                          cursor: pointer;
+                          text-decoration: none;
+                          color: black;
+                        " href="*|POST1_URL|*">
+                      <div class="shadow-container" style="
+                            background-color: rgba(255, 255, 255, 1);
+                            margin: 0em 1em 1.5em 1em;
+                            padding: 1em 1em 1em 1em;
+                            border-top-left-radius: 25px;
+                            border-top-right-radius: 25px;
+                            border-bottom-left-radius: 25px;
+                            border-bottom-right-radius: 25px;
+                            margin-top: 20px;
+                            border: 1px solid rgba(128, 128, 128, 0.2);
+                            position: relative;
+                          ">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock"
+                          style="margin-bottom: 15px">
+                          <tbody class="mcnCaptionBlockOuter">
+                            <tr>
+                              <td class="mcnCaptionBlockInner" valign="top">
+                                <table align="left" text-align="left" width="50%">
+                                  <tbody>
+                                    <tr>
+                                      <td>
+                                        <p class="interest-title" style="
+                                              font-size: 0.875rem;
+                                              padding: 0;
+                                              margin: 0;
+                                              color: black;
+                                              text-decoration: none;
+                                            ">
+                                          *|POST1_TAG|*
+                                        </p>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock"
+                          style="margin-bottom: 15px">
+                          <tbody class="mcnCaptionBlockOuter">
+                            <tr>
+                              <td class="mcnCaptionBlockInner" valign="top">
+                                <table align="left" width="70%">
+                                  <tbody>
+                                    <tr>
+                                      <td width="60px">
+                                        <div class="user-picture clickable" style="
+                                              background-size: cover;
+                                              background-position: center center;
+                                              border-radius: 50%;
+                                              height: 60px;
+                                              width: 60px;
+                                              border: 1px solid
+                                                rgba(78, 220, 216, 0.5);
+                                              display: inline-block;
+                                              vertical-align: middle;
+                                              align-self: center;
+                                              margin-right: 15px;
+                                              background-image: url(*|POST1_USER_PICTURE|*);
+                                            "></div>
+                                      </td>
+                                      <td>
+                                        <div>*|POST1_USER_NAME|*</div>
+                                        <div style="margin-top: 8px">
+                                          <div class="user-bubble-highlighted clickable" style="
+                                                background-color: #4edcd8;
+                                                border-radius: 30px;
+                                                padding: 0.1em 1em 0.1em 1em;
+                                                padding-bottom: 3px;
+                                                padding-top: 3px;
+                                                margin: 0em 0.25em 0.5em 0em;
+                                                display: inline-block;
+                                                vertical-align: middle;
+                                                font-size: 11px;
+                                                box-shadow: 0px 0px 3px 0.5px
+                                                  rgba(0, 0, 0, 0.25);
+                                              ">
+                                            *|POST1_USER_MBTI|*
+                                          </div>
+
+                                          <div class="user-horoscope clickable" style="
+                                                background-size: cover;
+                                                background-repeat: no-repeat;
+                                                background-position: center
+                                                  center;
+                                                background-image: url('https://firebasestorage.googleapis.com/v0/b/sampleproject-f4ca1.appspot.com/o/space.png?alt=media&token=0488902a-36c4-4b78-a856-57a5f57aad37');
+                                                border-radius: 30px;
+                                                padding: 0.1em 1em 0.1em 1em;
+                                                padding-bottom: 3px;
+                                                padding-top: 3px;
+                                                margin: 0em 0.25em 0.5em 0em;
+                                                display: inline-block;
+                                                vertical-align: middle;
+                                                font-size: 11px;
+                                                color: white;
+                                              ">
+                                            *|POST1_USER_HOROSCOPE|*
+                                          </div>
+                                          <!-- Ennagram -->
+                                          <!-- <div class="user-enneagram clickable"
+                                                                                    onclick="openModal()">
+                                                                                    <p style="display: none">|*POST1_USER_ENNEAGRAM|*</p>
+                                                                                    6
+                                                                                    <img style="width: 12.5px; height: 12.5px; margin-left: -3px; margin-right: -3px"
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/sampleproject-f4ca1.appspot.com/o/wing.png?alt=media&token=ceb81c36-6221-4080-80ad-a0be2c95ffe8">
+                                                                                    7
+                                                                                </div> -->
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <table align="right" width="30%" style="text-align: right">
+                                  <tbody>
+                                    <tr>
+                                      <td class="date" style="
+                                            margin: 0;
+                                            font-size: 12px;
+                                            vertical-align: middle;
+                                            position: absolute;
+                                            right: 35px;
+                                            text-align: right;
+                                            padding: 0.25em 0 0 0;
+                                          " valign="middle" align="right">
+                                        *|POST1_DATE|*
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <h4 class="post-title" style="
+                              vertical-align: middle;
+                              font-size: 1.25rem;
+                              font-weight: bold;
+                              font-family: Roboto;
+                              padding: 0;
+                              margin: 0;
+                              color: black;
+                              text-decoration: none;
+                            ">
+                          *|POST1_TITLE|*
+                        </h4>
+                        <p class="post-text" style="
+                              font-size: 0.875rem;
+                              margin: 0;
+                              color: black;
+                              text-decoration: none;
+                              padding: 0.5em 0 0.5em 0;
+                              margin-top: 5px;
+                              margin-bottom: 10px;
+                            ">
+                          *|IF:POST1_DESCRIPTION|* *|POST1_DESCRIPTION|*
+                          *|END:IF|*
+                        </p>
+                        <!-- <div class="post_img">
+                                                <img src="*|IF:POST1_IMAGE|* *|POST1_IMAGE|* *|END:IF|*">
+
+                                            </div> -->
+
+                        <table width="100%">
+                          <tbody>
+                            <tr align="top">
+                              <td>
+                                <table>
+                                  <tbody>
+                                    <tr>
+                                      <td align="top">
+                                        <img class="img_icon" style="
+                                              width: 22px;
+                                              height: 22px;
+                                              padding-top: 6px;
+                                              padding: 0;
+                                            "
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/like_white.png?alt=media&token=e34c2804-36eb-4559-99a0-3e4b8f2200f1"
+                                          alt="" width="22" height="22" />
+                                      </td>
+                                      <td align="top">
+                                        <p class="num_like" style="
+                                              font-size: 0.875rem;
+                                              padding-left: 0.2em;
+                                              margin: 0;
+                                              margin-right: 7px;
+                                              vertical-align: middle;
+                                              white-space: nowrap;
+                                              overflow: hidden;
+                                              text-overflow: ellipsis;
+                                            ">
+                                          *|POST1_NUM_LIKES|*
+                                        </p>
+                                      </td>
+
+                                      <td align="top">
+                                        <img class="img_ghost"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/boo_logo.png?alt=media&token=71c55058-5cf3-46b2-b68b-5fe113e90f9b"
+                                          style="width: 22px; height: 22px" width="22" height="22" />
+                                      </td>
+
+                                      <td align="top">
+                                        <p class="num_like" style="
+                                              font-size: 0.875rem;
+                                              padding-left: 0.2em;
+                                              margin: 0;
+                                              margin-right: 7px;
+                                              vertical-align: middle;
+                                              white-space: nowrap;
+                                              overflow: hidden;
+                                              text-overflow: ellipsis;
+                                            ">
+                                          *|POST1_NUM_COMMENTS|*
+                                        </p>
+                                      </td>
+
+                                      <td align="top">
+                                        <img class="img_icon icon-share"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/send.png?alt=media&token=8f896c70-d49a-4b9b-896b-e7257efc944b"
+                                          alt="" style="
+                                              width: 22px;
+                                              height: 22px;
+                                              padding: 0;
+                                            " width="22" height="22" />
+                                      </td>
+
+                                      <td align="top">
+                                        <img class="img_icon"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/share_white.png?alt=media&token=b4ed99c8-53fe-45a6-949e-e796515e42c1"
+                                          alt="" style="
+                                              width: 22px;
+                                              height: 22px;
+                                              padding: 0;
+                                            " width="22" height="22" />
+                                      </td>
+
+                                      <td align="top">
+                                        <img class="img_icon"
+                                          src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/star_white.png?alt=media&token=ebe6b2e7-213b-4905-9137-2f760689c612"
+                                          alt="" style="
+                                              width: 22px;
+                                              height: 22px;
+                                              padding: 0;
+                                            " width="22" height="22" />
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+
+                              <td align="right" width="30%">
+                                <img
+                                  src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/bookmark%20(1).png?alt=media&token=bad5921b-efba-4a0f-8195-80c4c961ceaa"
+                                  alt="" class="icon-bookmark" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- card 2 -->
+
+  <table class="card_wrapper" align="center" style="min-width: 600px">
+    <tbody>
+      <tr>
+        <td>
+
+          <a style="cursor: pointer; text-decoration: none; color: black" href="*|POST2_URL|*">
+            <div class="shadow-container" style="
+                  background-color: rgba(255, 255, 255, 1);
+                  margin: 0em 1em 1.5em 1em;
+                  padding: 1em 1em 1em 1em;
+                  border-top-left-radius: 25px;
+                  border-top-right-radius: 25px;
+                  border-bottom-left-radius: 25px;
+                  border-bottom-right-radius: 25px;
+                  margin-top: 20px;
+                  border: 1px solid rgba(128, 128, 128, 0.2);
+                  position: relative;
+                ">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock"
+                style="margin-bottom: 15px">
+                <tbody class="mcnCaptionBlockOuter">
+                  <tr>
+                    <td class="mcnCaptionBlockInner" valign="top">
+                      <table align="left" text-align="left" width="50%">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <p class="interest-title" style="
+                                    font-size: 0.875rem;
+                                    padding: 0;
+                                    margin: 0;
+                                    color: black;
+                                    text-decoration: none;
+                                  ">
+                                *|POST2_TAG|*
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock"
+                style="margin-bottom: 15px">
+                <tbody class="mcnCaptionBlockOuter">
+                  <tr>
+                    <td class="mcnCaptionBlockInner" valign="top">
+                      <table align="left" width="70%">
+                        <tbody>
+                          <tr>
+                            <td width="60px">
+                              <div class="user-picture clickable" style="
+                                    background-size: cover;
+                                    background-position: center center;
+                                    border-radius: 50%;
+                                    height: 60px;
+                                    width: 60px;
+                                    border: 1px solid rgba(78, 220, 216, 0.5);
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    align-self: center;
+                                    margin-right: 15px;
+                                    background-image: url(*|POST2_USER_PICTURE|*);
+                                  "></div>
+                            </td>
+                            <td>
+                              <div>*|POST2_USER_NAME|*</div>
+                              <div style="margin-top: 8px">
+                                <div class="user-bubble-highlighted clickable" style="
+                                      background-color: #4edcd8;
+                                      border-radius: 30px;
+                                      padding: 0.1em 1em 0.1em 1em;
+                                      padding-bottom: 3px;
+                                      padding-top: 3px;
+                                      margin: 0em 0.25em 0.5em 0em;
+                                      display: inline-block;
+                                      vertical-align: middle;
+                                      font-size: 11px;
+                                      box-shadow: 0px 0px 3px 0.5px
+                                        rgba(0, 0, 0, 0.25);
+                                    ">
+                                  *|POST2_USER_MBTI|*
+                                </div>
+
+                                <div class="user-horoscope clickable" style="
+                                      background-size: cover;
+                                      background-repeat: no-repeat;
+                                      background-position: center center;
+                                      background-image: url('https://firebasestorage.googleapis.com/v0/b/sampleproject-f4ca1.appspot.com/o/space.png?alt=media&token=0488902a-36c4-4b78-a856-57a5f57aad37');
+                                      border-radius: 30px;
+                                      padding: 0.1em 1em 0.1em 1em;
+                                      padding-bottom: 3px;
+                                      padding-top: 3px;
+                                      margin: 0em 0.25em 0.5em 0em;
+                                      display: inline-block;
+                                      vertical-align: middle;
+                                      font-size: 11px;
+                                      color: white;
+                                    ">
+                                  *|POST2_USER_HOROSCOPE|*
+                                </div>
+                                <!-- Ennagram -->
+                                <!-- <div class="user-enneagram clickable"
+                                                                                    onclick="openModal()">
+                                                                                    <p style="display: none">|*POST2_USER_ENNEAGRAM|*</p>
+                                                                                    6
+                                                                                    <img style="width: 12.5px; height: 12.5px; margin-left: -3px; margin-right: -3px"
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/sampleproject-f4ca1.appspot.com/o/wing.png?alt=media&token=ceb81c36-6221-4080-80ad-a0be2c95ffe8">
+                                                                                    7
+                                                                                </div> -->
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table align="right" width="30%" style="text-align: right">
+                        <tbody>
+                          <tr>
+                            <td class="date" style="
+                                  margin: 0;
+                                  font-size: 12px;
+                                  vertical-align: middle;
+                                  position: absolute;
+                                  right: 35px;
+                                  text-align: right;
+                                  padding: 0.25em 0 0 0;
+                                " valign="middle" align="right">
+                              *|POST2_DATE|*
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h4 class="post-title" style="
+                    vertical-align: middle;
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                    font-family: Roboto;
+                    padding: 0;
+                    margin: 0;
+                    color: black;
+                    text-decoration: none;
+                  ">
+                *|POST2_TITLE|*
+              </h4>
+              <p class="post-text" style="
+                    font-size: 0.875rem;
+                    margin: 0;
+                    color: black;
+                    text-decoration: none;
+                    padding: 0.5em 0 0.5em 0;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                  ">
+                *|IF:POST2_DESCRIPTION|* *|POST2_DESCRIPTION|* *|END:IF|*
+              </p>
+              <!-- <div class="post_img">
+                                                <img src="*|IF:POST2_IMAGE|* *|POST2_IMAGE|* *|END:IF|*">
+
+                                            </div> -->
+
+              <table width="100%">
+                <tbody>
+                  <tr align="top">
+                    <td>
+                      <table>
+                        <tbody>
+                          <tr>
+
+                            <td align="top">
+                              <img class="img_icon" style="
+                            width: 22px;
+                            height: 22px;
+                            padding-top: 6px;
+                            padding: 0;
+                          " src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/like_white.png?alt=media&token=e34c2804-36eb-4559-99a0-3e4b8f2200f1"
+                                alt="" width="22" height="22" />
+                            </td>
+                            <td align="top">
+                              <p class="num_like" style="
+                            font-size: 0.875rem;
+                            padding-left: 0.2em;
+                            margin: 0;
+                            margin-right: 7px;
+                            vertical-align: middle;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                          ">
+                                *|POST2_NUM_LIKES|*
+                              </p>
+                            </td>
+
+                            <td align="top">
+                              <img class="img_ghost"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/boo_logo.png?alt=media&token=71c55058-5cf3-46b2-b68b-5fe113e90f9b"
+                                style="width: 22px; height: 22px" width="22" height="22" />
+                            </td>
+
+                            <td align="top">
+                              <p class="num_like" style="
+                            font-size: 0.875rem;
+                            padding-left: 0.2em;
+                            margin: 0;
+                            margin-right: 7px;
+                            vertical-align: middle;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                          ">
+                                *|POST2_NUM_COMMENTS|*
+                              </p>
+                            </td>
+
+                            <td align="top">
+                              <img class="img_icon icon-share"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/send.png?alt=media&token=8f896c70-d49a-4b9b-896b-e7257efc944b"
+                                alt="" style="width: 22px; height: 22px; padding: 0" width="22" height="22" />
+                            </td>
+
+                            <td align="top">
+                              <img class="img_icon"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/share_white.png?alt=media&token=b4ed99c8-53fe-45a6-949e-e796515e42c1"
+                                alt="" style="width: 22px; height: 22px; padding: 0" width="22" height="22" />
+                            </td>
+
+                            <td align="top">
+                              <img class="img_icon"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/star_white.png?alt=media&token=ebe6b2e7-213b-4905-9137-2f760689c612"
+                                alt="" style="width: 22px; height: 22px; padding: 0" width="22" height="22" />
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+
+                    <td align="right" width="30%">
+                      <table align="right">
+                        <tbody>
+                          <tr>
+                            <td align="right">
+
+                              <img class="img_icon icon-bookmark"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/bookmark%20(1).png?alt=media&token=bad5921b-efba-4a0f-8195-80c4c961ceaa"
+                                alt="" width="22" height="22" />
+                            </td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- card 3 -->
+
+  <table class="card_wrapper" align="center" style="min-width: 600px">
+    <tbody>
+      <tr>
+        <td>
+          <a style="cursor: pointer; text-decoration: none; color: black" href="*|POST3_URL|*">
+            <div class="shadow-container" style="
+                  background-color: rgba(255, 255, 255, 1);
+                  margin: 0em 1em 1.5em 1em;
+                  padding: 1em 1em 1em 1em;
+                  border-top-left-radius: 25px;
+                  border-top-right-radius: 25px;
+                  border-bottom-left-radius: 25px;
+                  border-bottom-right-radius: 25px;
+                  margin-top: 20px;
+                  border: 1px solid rgba(128, 128, 128, 0.2);
+                  position: relative;
+                ">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock"
+                style="margin-bottom: 15px">
+                <tbody class="mcnCaptionBlockOuter">
+                  <tr>
+                    <td class="mcnCaptionBlockInner" valign="top">
+                      <table align="left" text-align="left" width="50%">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <p class="interest-title" style="
+                                    font-size: 0.875rem;
+                                    padding: 0;
+                                    margin: 0;
+                                    color: black;
+                                    text-decoration: none;
+                                  ">
+                                *|POST3_TAG|*
+                              </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock"
+                style="margin-bottom: 15px">
+                <tbody class="mcnCaptionBlockOuter">
+                  <tr>
+                    <td class="mcnCaptionBlockInner" valign="top">
+                      <table align="left" width="70%">
+                        <tbody>
+                          <tr>
+                            <td width="60px">
+                              <div class="user-picture clickable" style="
+                                    background-size: cover;
+                                    background-position: center center;
+                                    border-radius: 50%;
+                                    height: 60px;
+                                    width: 60px;
+                                    border: 1px solid rgba(78, 220, 216, 0.5);
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                    align-self: center;
+                                    margin-right: 15px;
+                                    background-image: url(*|POST3_USER_PICTURE|*);
+                                  "></div>
+                            </td>
+                            <td>
+                              <div>*|POST3_USER_NAME|*</div>
+                              <div style="margin-top: 8px">
+                                <div class="user-bubble-highlighted clickable" style="
+                                      background-color: #4edcd8;
+                                      border-radius: 30px;
+                                      padding: 0.1em 1em 0.1em 1em;
+                                      padding-bottom: 3px;
+                                      padding-top: 3px;
+                                      margin: 0em 0.25em 0.5em 0em;
+                                      display: inline-block;
+                                      vertical-align: middle;
+                                      font-size: 11px;
+                                      box-shadow: 0px 0px 3px 0.5px
+                                        rgba(0, 0, 0, 0.25);
+                                    ">
+                                  *|POST3_USER_MBTI|*
+                                </div>
+
+                                <div class="user-horoscope clickable" style="
+                                      background-size: cover;
+                                      background-repeat: no-repeat;
+                                      background-position: center center;
+                                      background-image: url('https://firebasestorage.googleapis.com/v0/b/sampleproject-f4ca1.appspot.com/o/space.png?alt=media&token=0488902a-36c4-4b78-a856-57a5f57aad37');
+                                      border-radius: 30px;
+                                      padding: 0.1em 1em 0.1em 1em;
+                                      padding-bottom: 3px;
+                                      padding-top: 3px;
+                                      margin: 0em 0.25em 0.5em 0em;
+                                      display: inline-block;
+                                      vertical-align: middle;
+                                      font-size: 11px;
+                                      color: white;
+                                    ">
+                                  *|POST3_USER_HOROSCOPE|*
+                                </div>
+                                <!-- Ennagram -->
+                                <!-- <div class="user-enneagram clickable"
+                                                                                    onclick="openModal()">
+                                                                                    <p style="display: none">|*POST3_USER_ENNEAGRAM|*</p>
+                                                                                    6
+                                                                                    <img style="width: 12.5px; height: 12.5px; margin-left: -3px; margin-right: -3px"
+                                                                                        src="https://firebasestorage.googleapis.com/v0/b/sampleproject-f4ca1.appspot.com/o/wing.png?alt=media&token=ceb81c36-6221-4080-80ad-a0be2c95ffe8">
+                                                                                    7
+                                                                                </div> -->
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table align="right" width="30%" style="text-align: right">
+                        <tbody>
+                          <tr>
+                            <td class="date" style="
+                                  margin: 0;
+                                  font-size: 12px;
+                                  vertical-align: middle;
+                                  position: absolute;
+                                  right: 35px;
+                                  text-align: right;
+                                  padding: 0.25em 0 0 0;
+                                " valign="middle" align="right">
+                              *|POST3_DATE|*
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <h4 class="post-title" style="
+                    vertical-align: middle;
+                    font-size: 1.25rem;
+                    font-weight: bold;
+                    font-family: Roboto;
+                    padding: 0;
+                    margin: 0;
+                    color: black;
+                    text-decoration: none;
+                  ">
+                *|POST3_TITLE|*
+              </h4>
+              <p class="post-text" style="
+                    font-size: 0.875rem;
+                    margin: 0;
+                    color: black;
+                    text-decoration: none;
+                    padding: 0.5em 0 0.5em 0;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                  ">
+                *|IF:POST3_DESCRIPTION|* *|POST3_DESCRIPTION|* *|END:IF|*
+              </p>
+              <!-- <div class="post_img">
+                                                <img src="*|IF:POST3_IMAGE|* *|POST3_IMAGE|* *|END:IF|*">
+
+                                            </div> -->
+
+              <table width="100%">
+                <tbody>
+                  <tr align="top">
+                    <td>
+                      <table>
+                        <tbody>
+                          <tr>
+
+                            <td align="top">
+                              <img class="img_icon" style="
+                            width: 22px;
+                            height: 22px;
+                            padding-top: 6px;
+                            padding: 0;
+                          " src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/like_white.png?alt=media&token=e34c2804-36eb-4559-99a0-3e4b8f2200f1"
+                                alt="" width="22" height="22" />
+                            </td>
+                            <td align="top">
+                              <p class="num_like" style="
+                            font-size: 0.875rem;
+                            padding-left: 0.2em;
+                            margin: 0;
+                            margin-right: 7px;
+                            vertical-align: middle;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                          ">
+                                *|POST3_NUM_LIKES|*
+                              </p>
+                            </td>
+
+                            <td align="top">
+                              <img class="img_ghost"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/boo_logo.png?alt=media&token=71c55058-5cf3-46b2-b68b-5fe113e90f9b"
+                                style="width: 22px; height: 22px" width="22" height="22" />
+                            </td>
+
+                            <td align="top">
+                              <p class="num_like" style="
+                            font-size: 0.875rem;
+                            padding-left: 0.2em;
+                            margin: 0;
+                            margin-right: 7px;
+                            vertical-align: middle;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                          ">
+                                *|POST3_NUM_COMMENTS|*
+                              </p>
+                            </td>
+
+                            <td align="top">
+                              <img class="img_icon icon-share"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/send.png?alt=media&token=8f896c70-d49a-4b9b-896b-e7257efc944b"
+                                alt="" style="width: 22px; height: 22px; padding: 0" width="22" height="22" />
+                            </td>
+
+                            <td align="top">
+                              <img class="img_icon"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/share_white.png?alt=media&token=b4ed99c8-53fe-45a6-949e-e796515e42c1"
+                                alt="" style="width: 22px; height: 22px; padding: 0" width="22" height="22" />
+                            </td>
+                            <td align="top">
+                              <img class="img_icon"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/star_white.png?alt=media&token=ebe6b2e7-213b-4905-9137-2f760689c612"
+                                alt="" style="width: 22px; height: 22px; padding: 0" width="22" height="22" />
+                            </td>
+
+
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+
+                    <td width="30%" align="right">
+                      <table align="right" width="100%">
+                        <tbody>
+                          <tr>
+                            <td align="right">
+                              <img class="img_icon icon-bookmark"
+                                src="https://firebasestorage.googleapis.com/v0/b/boo-img-hosting.appspot.com/o/bookmark%20(1).png?alt=media&token=bad5921b-efba-4a0f-8195-80c4c961ceaa"
+                                alt="" width="22" height="22" />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- cards End -->
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width: 100%">
+    <tbody class="mcnButtonBlockOuter">
+      <tr>
+        <td style="
+              padding-top: 0;
+              padding-right: 18px;
+              padding-bottom: 18px;
+              padding-left: 18px;
+            " valign="top" align="center" class="mcnButtonBlockInner">
+          <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="
+                border-collapse: separate !important;
+                border-radius: 50px;
+                background-color: #4edcd3;
+              ">
+            <tbody>
+              <tr>
+                <td align="center" valign="middle" class="mcnButtonContent" style="
+                      font-family: Roboto, Helvetica, Arial, sans-serif;
+                      font-size: 12px;
+                      padding: 10px;
+                    ">
+                  <a class="mcnButton" title="OPEN BOO" href="https://signup.boo.world/email" target="_blank" style="
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                        line-height: 100%;
+                        text-align: center;
+                        text-decoration: none;
+                        color: #ffffff;
+                      ">OPEN BOO
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%">
+    <tbody class="mcnImageBlockOuter">
+      <tr>
+        <td valign="top" style="padding: 9px" class="mcnImageBlockInner">
+          <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer"
+            style="min-width: 100%">
+            <tbody>
+              <tr>
+                <td class="mcnImageContent" valign="top" style="
+                      padding-right: 9px;
+                      padding-left: 9px;
+                      padding-top: 0;
+                      padding-bottom: 0;
+                      text-align: center;
+                    ">
+                  <a href="https://boo.world/" title="" class="" target="_blank">
+                    <img align="center" alt=""
+                      src="https://mcusercontent.com/da27a3f959fae93dcfd098645/images/36c9e62c-3a30-d9ad-7286-77431bdecaf0.png"
+                      width="56.25" style="
+                          max-width: 75px;
+                          padding-bottom: 0;
+                          display: inline !important;
+                          vertical-align: bottom;
+                        " class="mcnImage" />
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowBlock" style="min-width: 100%">
+    <tbody class="mcnFollowBlockOuter">
+      <tr>
+        <td align="center" valign="top" style="padding: 9px" class="mcnFollowBlockInner">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnFollowContentContainer"
+            style="min-width: 100%">
+            <tbody>
+              <tr>
+                <td align="center" style="padding-left: 9px; padding-right: 9px">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%"
+                    class="mcnFollowContent">
+                    <tbody>
+                      <tr>
+                        <td align="center" valign="top" style="
+                              padding-top: 9px;
+                              padding-right: 9px;
+                              padding-left: 9px;
+                            ">
+                          <table align="center" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td align="center" valign="top">
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                    style="display: inline">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" style="
+                                              padding-right: 10px;
+                                              padding-bottom: 9px;
+                                            " class="mcnFollowContentItemContainer">
+                                          <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                            class="mcnFollowContentItem">
+                                            <tbody>
+                                              <tr>
+                                                <td align="left" valign="middle" style="
+                                                      padding-top: 5px;
+                                                      padding-right: 10px;
+                                                      padding-bottom: 5px;
+                                                      padding-left: 9px;
+                                                    ">
+                                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                                    width="">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" valign="middle" width="24"
+                                                          class="mcnFollowIconContent">
+                                                          <a href="https://www.facebook.com/boodatingapp"
+                                                            target="_blank"><img
+                                                              src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-facebook-48.png"
+                                                              alt="Facebook" style="
+                                                                  display: block;
+                                                                " height="24" width="24" class="" /></a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                    style="display: inline">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" style="
+                                              padding-right: 10px;
+                                              padding-bottom: 9px;
+                                            " class="mcnFollowContentItemContainer">
+                                          <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                            class="mcnFollowContentItem">
+                                            <tbody>
+                                              <tr>
+                                                <td align="left" valign="middle" style="
+                                                      padding-top: 5px;
+                                                      padding-right: 10px;
+                                                      padding-bottom: 5px;
+                                                      padding-left: 9px;
+                                                    ">
+                                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                                    width="">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" valign="middle" width="24"
+                                                          class="mcnFollowIconContent">
+                                                          <a href="https://www.instagram.com/bootheapp/"
+                                                            target="_blank"><img
+                                                              src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-instagram-48.png"
+                                                              alt="Link" style="
+                                                                  display: block;
+                                                                " height="24" width="24" class="" /></a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                    style="display: inline">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" style="
+                                              padding-right: 10px;
+                                              padding-bottom: 9px;
+                                            " class="mcnFollowContentItemContainer">
+                                          <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                            class="mcnFollowContentItem">
+                                            <tbody>
+                                              <tr>
+                                                <td align="left" valign="middle" style="
+                                                      padding-top: 5px;
+                                                      padding-right: 10px;
+                                                      padding-bottom: 5px;
+                                                      padding-left: 9px;
+                                                    ">
+                                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                                    width="">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" valign="middle" width="24"
+                                                          class="mcnFollowIconContent">
+                                                          <a href="https://twitter.com/BooTheApp" target="_blank"><img
+                                                              src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-twitter-48.png"
+                                                              alt="Twitter" style="
+                                                                  display: block;
+                                                                " height="24" width="24" class="" /></a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                    style="display: inline">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" style="
+                                              padding-right: 10px;
+                                              padding-bottom: 9px;
+                                            " class="mcnFollowContentItemContainer">
+                                          <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                            class="mcnFollowContentItem">
+                                            <tbody>
+                                              <tr>
+                                                <td align="left" valign="middle" style="
+                                                      padding-top: 5px;
+                                                      padding-right: 10px;
+                                                      padding-bottom: 5px;
+                                                      padding-left: 9px;
+                                                    ">
+                                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                                    width="">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" valign="middle" width="24"
+                                                          class="mcnFollowIconContent">
+                                                          <a href="https://fi.pinterest.com/bootheapp/_created/"
+                                                            target="_blank"><img
+                                                              src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-pinterest-48.png"
+                                                              alt="Pinterest" style="
+                                                                  display: block;
+                                                                " height="24" width="24" class="" /></a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+
+                                  <!--[if mso]>
+                                        <td align="center" valign="top">
+                                        <![endif]-->
+
+                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                    style="display: inline">
+                                    <tbody>
+                                      <tr>
+                                        <td valign="top" style="
+                                              padding-right: 0;
+                                              padding-bottom: 9px;
+                                            " class="mcnFollowContentItemContainer">
+                                          <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                            class="mcnFollowContentItem">
+                                            <tbody>
+                                              <tr>
+                                                <td align="left" valign="middle" style="
+                                                      padding-top: 5px;
+                                                      padding-right: 10px;
+                                                      padding-bottom: 5px;
+                                                      padding-left: 9px;
+                                                    ">
+                                                  <table align="left" border="0" cellpadding="0" cellspacing="0"
+                                                    width="">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" valign="middle" width="24"
+                                                          class="mcnFollowIconContent">
+                                                          <a href="https://www.youtube.com/channel/UCvY-fBuYSNIPrJI6rAOzgBA"
+                                                            target="_blank"><img
+                                                              src="https://cdn-images.mailchimp.com/icons/social-block-v2/light-youtube-48.png"
+                                                              alt="YouTube" style="
+                                                                  display: block;
+                                                                " height="24" width="24" class="" /></a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                                  <!--[if mso]>
+                                        </td>
+                                        <![endif]-->
+
+                                  <!--[if mso]>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%">
+    <tbody class="mcnTextBlockOuter">
+      <tr>
+        <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px">
+          <!--[if mso]>
+				<table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+				<tr>
+				<![endif]-->
+
+          <!--[if mso]>
+				<td valign="top" width="600" style="width:600px;">
+				<![endif]-->
+          <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%; min-width: 100%"
+            width="100%" class="mcnTextContentContainer">
+            <tbody>
+              <tr>
+                <td valign="top" class="mcnTextContent" style="padding: 0px 18px 9px; line-height: 100%">
+                  <div style="text-align: center">
+                    <span style="font-size: 11px"><em>Copyright © 2022 Boo, All rights reserved. <br />
+                        You are receiving this email because you opted in via
+                        the Boo mobile app or website.<br />
+                        <br />
+                        <strong>Our mailing address is:</strong><br />
+                        Boo<br />
+                        P.O. Box 22402<br />
+                        Honolulu, HI 96823
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <!--[if mso]>
+				</td>
+				<![endif]-->
+
+          <!--[if mso]>
+				</tr>
+				</table>
+				<![endif]-->
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <tr>
+    <td valign="top" id="templateFooter"></td>
+  </tr>
+</body>
+
+</html>
